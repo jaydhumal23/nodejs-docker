@@ -10,4 +10,4 @@ COPY . .
 
 EXPOSE 8000
 
-CMD [ "npm","run","server" ]
+CMD [ "node","server.js" ]
